@@ -247,15 +247,15 @@ All parents should have received an email regarding the reopening schedule.
     <CardActions>
     <Button  variant="contained" onClick={openSummerCalendar}
     size="small" color="primary">
-    Summer, 2023
+    Summer, 2024
     </Button>
         <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
         <DialogTitle id="customized-dialog-title" onClose={handleClose}>
-        Summer Program 2023 
+        Summer Program 2024
         </DialogTitle>
         <DialogContent >
         <Typography align='center' variant="body2" color="textSecondary" component="p">
-        Begins July 10th and ends August 18th 
+        Begins July 8th and ends August 16th 
         </Typography> 
         <p></p>
         <CalendarSummer />
@@ -264,11 +264,11 @@ All parents should have received an email regarding the reopening schedule.
         </Dialog> 
     <Button variant="contained" onClick={openSchoolCalendar} 
     size="small" color="primary">
-    School Year, 2023-2024
+    School Year, 2024-2025
     </Button>
     <Dialog onClose={closeCalendar} aria-labelledby="customized-dialog-title" open={openCalendar}>
         <DialogTitle id="customized-dialog-title" onClose={closeCalendar}>
-        School Calendar 2023-2024
+        School Calendar 2024-2025
         </DialogTitle>
         <DialogContent >
         <CalendarSchool />
